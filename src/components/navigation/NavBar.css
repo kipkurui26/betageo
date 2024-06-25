@@ -78,6 +78,7 @@
     flex-direction: column;
 }
 .sub-links{
+    margin: 10px 0;
     width: 90%;
     border: 1px solid #ccc;
     border-radius: 5px;
