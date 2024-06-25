@@ -79,14 +79,15 @@
 }
 .sub-links{
     margin: 10px 0;
-    padding: 15px 0;
+    padding: 15px 2%;
     width: 90%;
     border: 1px solid #ccc;
     border-radius: 5px;
     background: #f3f3f3;
 }
 .sub-link{
-    margin-left: 2%;
+    margin: 10px 0;
+    padding: 4px 0;
     list-style: none;
 }
 
