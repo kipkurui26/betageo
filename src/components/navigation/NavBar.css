@@ -1,10 +1,10 @@
 .navigation{
-    height: 100vh;
-    /* display: none; */
+    display: none;
+    height: 0;
     width: 100vw;
 }
 .navigation.is-toggled{
-    display: flex;
+    display: block;
     height: 100vh;
 }
 .company-details{
@@ -49,9 +49,43 @@
 .nav__social .social--link:hover{
     color: #0f172a;
 }
-
-
-
+.nav-links{
+    margin: 3%;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.nav-link .link{
+    width: 100%;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    text-decoration: none;
+    color: #0c4a6e;
+    font-weight: 500;
+    padding: 5px ;
+}
+.nav-link .link:hover{
+    color: #0f172a;
+}
+.nav-link.service-link{
+    display: flex;
+    flex-direction: column;
+}
+.sub-links{
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f3f3f3;
+}
+.sub-link{
+    margin-left: 2%;
+    list-style: none;
+}
 
 .toggle-btn{
     position: absolute;
