@@ -2,6 +2,7 @@
     display: none;
     height: 0;
     width: 100vw;
+    overflow: auto;
 }
 .navigation.is-toggled{
     display: block;

@@ -56,14 +56,14 @@ export const subLinks = [
     },
     {
         id: 6,
-        title: 'Solar Installation',
-        path: '/services/solar-installation',
+        title: 'Tower Construction',
+        path: '/services/tower-construction',
         cName: "sub-link"
     },
     {
         id: 7,
-        title: 'Tower Construction',
-        path: '/services/tower-construction',
+        title: 'Solar Installation',
+        path: '/services/solar-installation',
         cName: "sub-link"
     },
 ]

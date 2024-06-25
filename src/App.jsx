@@ -18,7 +18,7 @@ import NotFound from "./pages/not-found/NotFound";
 
 function App() {
   return (
-    <>
+    <section className="App">
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -33,7 +33,7 @@ function App() {
           path="/services/camera-inspection"
           element={<CameraInspection />}
         />
-        <Route path="/services/hydro-survey" element={<HydroSurvey />} />
+        <Route path="/services/hydro-geological-survey" element={<HydroSurvey />} />
         <Route
           path="/services/pump-installation"
           element={<PumpInstallation />}
@@ -50,7 +50,7 @@ function App() {
 
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </>
+    </section>
   );
 }
 
