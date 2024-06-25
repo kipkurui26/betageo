@@ -112,3 +112,59 @@
     background-color: #0f172a;
     color: #fff;
 }
+@media only screen and (min-width:800px){
+    .navigation{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 60px;
+        width: 100vw;
+        background: #e8e8e8;
+        padding: 0 2%;
+    }
+    .company-details{
+        height: 100%;
+        width: fit-content;
+    }
+    .nav-links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        height: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+    .nav-link{
+        margin: 0;
+        padding: 0 10px;
+        cursor: pointer;
+    }
+    .desktop-sub-links{
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        width: 100vw;
+        background: #e8e8e8;
+        padding: 10px 0;
+        z-index: 1;
+    }
+    .sub-links{
+        width: 360px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-top: none;
+    }
+    .appointment-btn{
+        background: #0f172a;
+        color: #fff;
+        padding: 5px 15px;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        border: none;
+        outline: none;
+    }
+}
