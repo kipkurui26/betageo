@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { navigationItems, subLinks } from "./NavItems";
 import BetaLogo from "../../assets/logo.jpeg";
@@ -13,14 +13,19 @@ import {
 } from "react-icons/fa";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6";
 const NavBar = () => {
+  const location = useLocation()
   const [isToggled, setIsToggled] = useState(false);
   const [isService, setIsService] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const [isDesktop, setIsDesktop] = useState(false);
 
+  useEffect(()=>{
+    setIsToggled(false)
+    setIsService(false)
+  }, [location.pathname])
+
   const handleServiceClick = () => {
     setIsService(!isService);
-    console.log(isService);
   };
   const handleToggleMenu = () => {
     setIsToggled((prevState) => !prevState);
