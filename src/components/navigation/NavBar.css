@@ -5,6 +5,7 @@
     height: 0;
     width: 100vw;
     overflow: auto;
+    background: #fff;
 }
 .navigation.is-toggled{
     display: block;
