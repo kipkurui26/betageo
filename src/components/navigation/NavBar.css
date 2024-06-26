@@ -1,5 +1,7 @@
 .navigation{
     display: none;
+    position: absolute;
+    z-index: 200;
     height: 0;
     width: 100vw;
     overflow: auto;
@@ -115,6 +117,7 @@
 }
 @media only screen and (min-width:800px){
     .navigation{
+        position: unset;
         display: flex;
         align-items: center;
         justify-content: space-between;
