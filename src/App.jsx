@@ -15,6 +15,7 @@ import SolarInstallation from "./pages/services/solar-installation/SolarInstalla
 import TowerConstruction from "./pages/services/tower-construction/TowerConstruction";
 
 import NotFound from "./pages/not-found/NotFound";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
 
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </section>
   );
 }

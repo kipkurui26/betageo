@@ -83,7 +83,7 @@
     width: 90%;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background: #f3f3f3;
+    background: #fff;
 }
 .sub-link{
     margin: 4px 0;
@@ -102,6 +102,7 @@
     right: 10px;
     font-size: 2.3em;
     color: #0f172a;
+    background: #f3f3f3;
     border: 1px solid #0f172a;
     padding: 2px;
     border-radius: 3px;
@@ -155,6 +156,7 @@
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         border-top: none;
+        box-shadow: 3px 3px 10px #ccc;
     }
     .appointment-btn{
         background: #0f172a;
