@@ -31,7 +31,7 @@
 }
 .subdetails--content{
     color: #020b1d;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .footer__services--list{
     list-style: none;
@@ -41,7 +41,7 @@
     align-items: center;
     gap: 3px;
     color: #020b1d;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 600;
     text-decoration: none;
     margin-bottom: 10px;
