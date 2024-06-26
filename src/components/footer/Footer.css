@@ -1,6 +1,6 @@
 .footer{
     width: 100%;
-    background: #33455b;
+    background: #62758e5b;
     padding: 3%;
 }
 .footer__container{
@@ -50,5 +50,5 @@
     transition: all 0.5s ease-in-out;
 }
 .footer__service--link:hover{
-    color: #f4f4f4;
+    color: #0f172a;
 }
