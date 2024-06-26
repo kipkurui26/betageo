@@ -1,4 +1,10 @@
-import { FaCaretRight } from "react-icons/fa";
+import {
+  FaCaretRight,
+  FaFacebookF,
+  FaLinkedinIn,
+  FaTiktok,
+  FaWhatsapp,
+} from "react-icons/fa";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
@@ -38,18 +44,27 @@ const Footer = () => {
         <h2 className="footer__about--title">Our Services</h2>
         <ul className="footer__services--list">
           <li className="services--item">
-            <Link to="/services/hydro-geological-survey" className="footer__service--link">
+            <Link
+              to="/services/hydro-geological-survey"
+              className="footer__service--link"
+            >
               <FaCaretRight />
               Hydro-Geological Survey
             </Link>
           </li>
           <li className="services--item">
-            <Link to="/services/borehole-drilling" className="footer__service--link">
+            <Link
+              to="/services/borehole-drilling"
+              className="footer__service--link"
+            >
               <FaCaretRight /> Borehole Drilling
             </Link>
           </li>
           <li className="services--item">
-            <Link to="/services/camera-inspection" className="footer__service--link">
+            <Link
+              to="/services/camera-inspection"
+              className="footer__service--link"
+            >
               <FaCaretRight /> Camera Inspection
             </Link>
           </li>
@@ -59,44 +74,79 @@ const Footer = () => {
             </Link>
           </li>
           <li className="services--item">
-            <Link to="/services/pump-installation" className="footer__service--link">
+            <Link
+              to="/services/pump-installation"
+              className="footer__service--link"
+            >
               <FaCaretRight /> Pump Installation
             </Link>
           </li>
           <li className="services--item">
-            <Link to="/services/tower-construction" className="footer__service--link">
+            <Link
+              to="/services/tower-construction"
+              className="footer__service--link"
+            >
               <FaCaretRight /> Tower Construction
             </Link>
           </li>
           <li className="services--item">
-            <Link to="/services/solar-installation" className="footer__service--link">
+            <Link
+              to="/services/solar-installation"
+              className="footer__service--link"
+            >
               <FaCaretRight /> Solar Installation
             </Link>
           </li>
         </ul>
       </div>
       <div className="footer__container footer__quick--links">
-        <div className="footer__col">
-          <h2 className="footer__about--title">Usefull Links</h2>
-          <ul className="footer__services--list">
-            <li className="services--item">
-              <Link to="/" className="footer__service--link">
-                <FaCaretRight /> Home
+        <h2 className="footer__about--title">Usefull Links</h2>
+        <ul className="footer__services--list">
+          <li className="services--item">
+            <Link to="/" className="footer__service--link">
+              <FaCaretRight /> Home
+            </Link>
+          </li>
+          <li className="services--item">
+            <Link to="/about-us" className="footer__service--link">
+              <FaCaretRight /> About Us
+            </Link>
+          </li>
+          <li className="services--item">
+            <Link to="/contact-us" className="footer__service--link">
+              <FaCaretRight /> Contact Us
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <div className="footer__copyright">
+        <div className="copyright">
+          <p>&copy; 2021 Beta Geo-Consultants. All Rights Reserved</p>
+        </div>
+        <div className="footer__handles">
+          <ul className="nav__socials">
+            <li className="nav__social">
+              <Link to="#" target="_blank" className="social--link">
+                <FaFacebookF />
               </Link>
             </li>
-            <li className="services--item">
-              <Link to="/about-us" className="footer__service--link">
-                <FaCaretRight /> About Us
+            <li className="nav__social">
+              <Link to="#" target="_blank" className="social--link">
+                <FaTiktok />
               </Link>
             </li>
-            <li className="services--item">
-              <Link to="/contact-us" className="footer__service--link">
-                <FaCaretRight /> Contact Us
+            <li className="nav__social">
+              <Link to="#" target="_blank" className="social--link">
+                <FaWhatsapp />
+              </Link>
+            </li>
+            <li className="nav__social">
+              <Link to="#" target="_blank" className="social--link">
+                <FaLinkedinIn />
               </Link>
             </li>
           </ul>
         </div>
-        <div className="footer__col"></div>
       </div>
     </section>
   );
