@@ -121,7 +121,7 @@ const Footer = () => {
       </div>
       <div className="footer__copyright">
         <div className="copyright">
-          <p>&copy; 2021 Beta Geo-Consultants. All Rights Reserved</p>
+          <p>&copy; 2021 - {new Date().getFullYear()} Beta Geo-Consultants LTD. All Rights Reserved</p>
         </div>
         <div className="footer__handles">
           <ul className="nav__socials">

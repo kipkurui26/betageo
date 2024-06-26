@@ -48,7 +48,7 @@
     transition: all 0.5s ease-in-out;
 }
 .nav__social .social--link:hover{
-    color: #0f172a;
+    color: blue;
 }
 .nav-links{
     margin: 3%;
