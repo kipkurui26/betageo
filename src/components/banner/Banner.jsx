@@ -1,19 +1,15 @@
 import "./Banner.css";
-const Banner = () => {
+const Banner = ({bannerOverview, bannerTitle, bannerDescription, bannerContact}) => {
   return (
     <section className="banner">
       <div className="banner__content">
-        <span className="banner__overview">For The Community</span>
+        <span className="banner__overview">{bannerOverview}</span>
         <h1 className="banner__title">
-          Providing clean, reliable, and affordable water for the community
+          {bannerTitle}
         </h1>
-        <p className="banner__description">
-          We handle everything from locating water sources to drilling and
-          conducting quality testing. Count on us for comprehensive solutions
-          tailored to your water needs, ensuring efficiency and reliability
-          every step of the way.
+        <p className="banner__description"> {bannerDescription}
         </p>
-        <button className="banner__btn">Contact Us</button>
+        <button className="banner__btn">{bannerContact}</button>
       </div>
     </section>
   );
