@@ -156,14 +156,13 @@
         width: 100vw;
         background: #e8e8e8;
         padding: 10px 0;
-        z-index: 1;
+        z-index: 100;
     }
     .sub-links{
         width: 360px;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         border-top: none;
-        box-shadow: 3px 3px 10px #ccc;
     }
     .appointment-btn{
         background: #0f172a;

@@ -24,43 +24,43 @@
 .banner__overview {
   font-size: 1.2em;
   font-weight: 700;
-  color: #00BFFF;
+  color: #00bfff;
 }
 .banner__title {
-    color: #fff;
-    font-size: 2em;
-    font-weight: 700;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
 }
 .banner__description {
   font-size: 1em;
   font-weight: 400;
   color: #e7e3e3;
 }
-.banner__btn{
-    background: #025672;
-    border: none;
-    outline: none;
-    padding: 6px 60px;
-    margin: 20px 0 ;
-    border-radius: 3px;
-    color: #fff;
-    font-size: 1.2em;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background 0.3s;
+.banner__btn {
+  background: #025672;
+  border: none;
+  outline: none;
+  padding: 6px 60px;
+  margin: 20px 0;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
 }
-.banner__btn:hover{
-    background: #0f172a;
+.banner__btn:hover {
+  background: #0f172a;
 }
-@media only screen and (min-width:800px){
-    .banner{
-        min-height: 400px;
-    }
-    .banner__content{
-        width: 80%;
-        padding: 5% 3%;
-    }
-    .banner__title{
-        font-size: 2.3em;
-    }
+@media only screen and (min-width: 800px) {
+  .banner {
+    min-height: 400px;
+  }
+  .banner__content {
+    width: 80%;
+    padding: 8% 3%;
+  }
+  .banner__title {
+    font-size: 2.3em;
+  }
 }
