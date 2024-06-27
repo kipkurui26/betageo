@@ -6,7 +6,7 @@ const HydroSurvey = () => {
       <Banner
         bannerOverview={"Hydro-Geological Surveys"}
         bannerTitle={"Comprehensive Surveys Tailored To Your Water Needs"}
-        bannerDescription={`Our hydro-geological surveys deliver a thorough analysis of the water resources on your property. Leveraging cutting-edge technology and expert knowledge, we locate water sources, evaluate water quality, and identify optimal drilling sites. Our mission is to provide you with clean, reliable, and sustainable water solutions.`}
+        bannerDescription={`Leveraging cutting-edge technology and expert knowledge, we locate water sources, evaluate water quality, and identify optimal drilling sites. Our mission is to provide you with clean, reliable, and sustainable water solutions.`}
         bannerContact={"Get in Touch"}
       />
     </section>
