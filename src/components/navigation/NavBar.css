@@ -159,6 +159,7 @@
         z-index: 100;
     }
     .sub-links{
+        padding: 0 1%;
         width: 360px;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
