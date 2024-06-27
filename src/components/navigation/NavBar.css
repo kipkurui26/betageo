@@ -1,6 +1,6 @@
 .navigation{
     display: none;
-    position: absolute;
+    position: fixed;
     z-index: 200;
     height: 0;
     width: 100vw;
@@ -95,7 +95,7 @@
 }
 
 .toggle-btn{
-    position: absolute;
+    position: fixed;
     z-index: 201;
     display: flex;
     align-items: center;
