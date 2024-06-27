@@ -14,19 +14,19 @@ const Footer = () => {
       <div className="footer__container footer__about">
         <h2 className="footer__about--title">About Us</h2>
         <p className="footer__about--content">
-          Beta Geo-Consultants is a consultancy firm located in Nairobi-Kenya
-          that offers a comprehencive range of borehole drilling and related
-          services for both domestic and industrial use.
+          Beta Geo-Consultants is a drilling and consultancy firm based in
+          Nairobi, Kenya, offering a comprehensive range of borehole drilling
+          and related services for both domestic and industrial use.
         </p>
         <p className="footer__about--content">
-          We pride ourselves in being flexible, accessible and offer
-          client-oriented borehole services.
+          We pride ourselves on being flexible, accessible, and client-oriented,
+          delivering tailored borehole services to meet your specific needs.
         </p>
       </div>
       <div className="footer__container footer__location">
         <h2 className="footer__about--title">Head Office</h2>
         <p className="footer__about--content">
-          BW Square Building, 2nd Floor, Suite BW-202, Kamulu-Nairobi
+          BW Square Building, 2nd Floor, Suite BW-202, Kamulu, Nairobi
         </p>
         <div className="location__sub--details">
           <div className="location__subdetails--email">
@@ -121,7 +121,10 @@ const Footer = () => {
       </div>
       <div className="footer__copyright">
         <div className="copyright">
-          <p>&copy; 2021 - {new Date().getFullYear()} Beta Geo-Consultants LTD. All Rights Reserved</p>
+          <p>
+            &copy; 2021 - {new Date().getFullYear()} Beta Geo-Consultants LTD.
+            All Rights Reserved
+          </p>
         </div>
         <div className="footer__handles">
           <ul className="nav__socials">
