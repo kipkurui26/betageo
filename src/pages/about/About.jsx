@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="about">
       <Banner
-        bannerOverview={"For The Community"}
+        bannerOverview={"Water Security For The Community"}
         bannerTitle={
           "Providing clean, reliable, and affordable water for the community"
         }
