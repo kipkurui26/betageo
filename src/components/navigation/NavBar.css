@@ -129,6 +129,17 @@
         background: #e8e8e8;
         padding: 0 2%;
     }
+    .beta-logo{
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .beta-logo .logo{
+        width: 100%;
+        height: 100%;
+    }
     .company-details{
         width: 100%;
         height: 100%;
