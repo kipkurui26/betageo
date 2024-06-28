@@ -60,8 +60,10 @@
         font-size: 2em;
         padding-right: 10px;
     }
-    .contact__form,
+    .contact__form{
+        width: 55%;
+    }
     .contact__address{
-        width: 47%;
+        width: 40%;
     }
 }

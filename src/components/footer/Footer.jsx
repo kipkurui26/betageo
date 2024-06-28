@@ -2,6 +2,7 @@ import { FaCaretRight } from "react-icons/fa";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import Socials from "../social handles/Socials";
+import { subLinks } from "../navigation/NavItems";
 
 const Footer = () => {
   return (
@@ -38,60 +39,13 @@ const Footer = () => {
       <div className="footer__container footer__services">
         <h2 className="footer__about--title">Our Services</h2>
         <ul className="footer__services--list">
-          <li className="services--item">
-            <Link
-              to="/services/hydro-geological-survey"
-              className="footer__service--link"
-            >
-              <FaCaretRight />
-              Hydro-Geological Survey
-            </Link>
-          </li>
-          <li className="services--item">
-            <Link
-              to="/services/borehole-drilling"
-              className="footer__service--link"
-            >
-              <FaCaretRight /> Borehole Drilling
-            </Link>
-          </li>
-          <li className="services--item">
-            <Link
-              to="/services/camera-inspection"
-              className="footer__service--link"
-            >
-              <FaCaretRight /> Camera Inspection
-            </Link>
-          </li>
-          <li className="services--item">
-            <Link to="/services/test-pumping" className="footer__service--link">
-              <FaCaretRight /> Test Pumping
-            </Link>
-          </li>
-          <li className="services--item">
-            <Link
-              to="/services/pump-installation"
-              className="footer__service--link"
-            >
-              <FaCaretRight /> Pump Installation
-            </Link>
-          </li>
-          <li className="services--item">
-            <Link
-              to="/services/tower-construction"
-              className="footer__service--link"
-            >
-              <FaCaretRight /> Tower Construction
-            </Link>
-          </li>
-          <li className="services--item">
-            <Link
-              to="/services/solar-installation"
-              className="footer__service--link"
-            >
-              <FaCaretRight /> Solar Installation
-            </Link>
-          </li>
+          {subLinks.map(({ id, path, title }) => (
+            <li key={id} className="services--item">
+              <Link to={path} className="footer__service--link">
+                <FaCaretRight /> {title}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
       <div className="footer__container footer__quick--links">
