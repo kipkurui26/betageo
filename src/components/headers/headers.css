@@ -1,0 +1,35 @@
+.contact__headers{
+    padding: 20px 0;
+}
+.section-title{
+    font-size: 1.6em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #1dbdff;
+}
+.left-line{
+    width: 40px;
+    height: 4px;
+    background-color: #1dbdff;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.section-description{
+    font-size: 2em;
+    font-weight: 700;
+    color: #164e63;
+}
+.contact__title{
+    font-size: 1.5em;
+    color: #030d1f;
+    margin-bottom: 10px;
+}
+.contact__content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact__icons{
+    font-size: 1.1em;
+}

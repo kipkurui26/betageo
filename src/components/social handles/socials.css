@@ -1,0 +1,15 @@
+.nav__socials{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 10px;
+}
+.nav__social .social--link{
+    font-size: 1.5em;
+    color: #0c4a6e;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.nav__social .social--link:hover{
+    color: blue;
+}

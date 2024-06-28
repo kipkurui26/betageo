@@ -5,13 +5,8 @@ import { navigationItems, subLinks } from "./NavItems";
 import BetaLogo from "../../assets/logo.jpeg";
 import "./NavBar.css";
 import { CgClose } from "react-icons/cg";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaTiktok,
-  FaWhatsapp,
-} from "react-icons/fa";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6";
+import Socials from "../social handles/Socials";
 const NavBar = () => {
   const location = useLocation()
   const [isToggled, setIsToggled] = useState(false);
@@ -113,28 +108,7 @@ const NavBar = () => {
                 <span className="company-name">Beta Geo-Consultants</span>
               </div>
 
-              <ul className="nav__socials">
-                <li className="nav__social">
-                  <Link to="#" target="_blank" className="social--link">
-                    <FaFacebookF />
-                  </Link>
-                </li>
-                <li className="nav__social">
-                  <Link to="#" target="_blank" className="social--link">
-                    <FaTiktok />
-                  </Link>
-                </li>
-                <li className="nav__social">
-                  <Link to="#" target="_blank" className="social--link">
-                    <FaWhatsapp />
-                  </Link>
-                </li>
-                <li className="nav__social">
-                  <Link to="#" target="_blank" className="social--link">
-                    <FaLinkedinIn />
-                  </Link>
-                </li>
-              </ul>
+              <Socials />
             </div>
             <ul className="nav-links">
               {navigationItems.map(({ id, title, path, cName }) => (
