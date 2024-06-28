@@ -31,21 +31,21 @@ function App() {
           element={<BoreholeDrilling />}
         />
         <Route
-          path="/services/camera-inspection"
+          path="/camera-inspection"
           element={<CameraInspection />}
         />
-        <Route path="/services/hydro-geological-survey" element={<HydroSurvey />} />
+        <Route path="/hydro-geological-survey" element={<HydroSurvey />} />
         <Route
-          path="/services/pump-installation"
+          path="/pump-installation"
           element={<PumpInstallation />}
         />
         <Route
-          path="/services/solar-installation"
+          path="/solar-installation"
           element={<SolarInstallation />}
         />
-        <Route path="/services/test-pumping" element={<TestPumping />} />
+        <Route path="/test-pumping" element={<TestPumping />} />
         <Route
-          path="/services/tower-construction"
+          path="/tower-construction"
           element={<TowerConstruction />}
         />
 
