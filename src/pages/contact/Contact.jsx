@@ -16,7 +16,7 @@ const Contact = () => {
         bannerOverview={"Your Water Solutions Partner"}
         bannerTitle={"Our experts are ready to help you every step of the way"}
         bannerDescription={`Need assistance or a quote? Contact us today, and our experts will help you discover the ideal water solution tailored to your needs.`}
-        bannerContact={"Connect With Us"}
+        bannerContact={"Connect with Us"}
       />
       <div className="contact__container">
         <div className="contact__address">
