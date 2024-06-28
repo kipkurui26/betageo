@@ -47,7 +47,9 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="contact__form"></div>
+        <form className="contact__form">
+          
+        </form>
       </div>
     </section>
   );
