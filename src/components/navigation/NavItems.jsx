@@ -27,43 +27,43 @@ export const subLinks = [
     {
         id: 1,
         title: 'Hydro-Geological Survey',
-        path: '/services/hydro-geological-survey',
+        path: '/hydro-geological-survey',
         cName: "sub-link"
     },
     {
         id: 2,
         title: 'Borehole Drilling',
-        path: '/services/borehole-drilling',
+        path: '/borehole-drilling-in-kenya',
         cName: "sub-link"
     },
     {
         id: 3,
         title: 'Camera Inspection',
-        path: '/services/camera-inspection',
+        path: '/camera-inspection',
         cName: "sub-link"
     },
     {
         id: 4,
         title: 'Test Pumping',
-        path: '/services/test-pumping',
+        path: '/test-pumping',
         cName: "sub-link"
     },
     {
         id: 5,
         title: 'Pump Installation',
-        path: '/services/pump-installation',
+        path: '/pump-installation',
         cName: "sub-link"
     },
     {
         id: 6,
         title: 'Tower Construction',
-        path: '/services/tower-construction',
+        path: '/tower-construction',
         cName: "sub-link"
     },
     {
         id: 7,
         title: 'Solar Installation',
-        path: '/services/solar-installation',
+        path: '/solar-installation',
         cName: "sub-link"
     },
 ]

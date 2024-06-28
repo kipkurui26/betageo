@@ -27,7 +27,7 @@ function App() {
         <Route path="/contact-us" element={<Contact />} />
 
         <Route
-          path="/services/borehole-drilling"
+          path="/borehole-drilling-in-kenya"
           element={<BoreholeDrilling />}
         />
         <Route
