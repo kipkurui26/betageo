@@ -16,3 +16,12 @@
     font-size: 1.3em;
     color: #164e63;
 }
+.contact__map{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.contact__map .map{
+    width: 100%;
+    height: 100%;
+}
