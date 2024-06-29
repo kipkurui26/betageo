@@ -17,6 +17,7 @@ const NavBar = () => {
   useEffect(()=>{
     setIsToggled(false)
     setIsService(false)
+    window.scrollTo(0,0)
   }, [location.pathname])
 
   const handleServiceClick = () => {
