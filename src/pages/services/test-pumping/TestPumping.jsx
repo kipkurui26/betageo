@@ -61,14 +61,14 @@ const TestPumping = () => {
           <div className="test__importance">
             <p className="test__importance--content">
               <FaTachometerAlt className="test__importance--icon" />
-              <span className="test__importance--title">Determine Yield: </span>
+              <span className="test__importance--title">Determine Yield </span>
               It accurately measures the borehole's water production capacity,
               ensuring that the supply meets your needs.
             </p>
             <p className="test__importance--content">
               <FaCogs className="test__importance--icon" />
               <span className="test__importance--title">
-                Optimize Pump Selection:{" "}
+                Optimize Pump Selection{" "}
               </span>
               It guides the choice of the correct pump size and type, maximizing
               efficiency and reducing operational costs.
@@ -76,7 +76,7 @@ const TestPumping = () => {
             <p className="test__importance--content">
               <FaLeaf className="test__importance--icon" />
               <span className="test__importance--title">
-                Sustainable Operation:{" "}
+                Sustainable Operation{" "}
               </span>
               Regular monitoring during test pumping helps in managing water
               extraction sustainably, preventing over-exploitation of the
@@ -85,7 +85,7 @@ const TestPumping = () => {
             <p className="test__importance--content">
               <FaExclamationTriangle className="test__importance--icon" />
               <span className="test__importance--title">
-                Identify Potential Issues:{" "}
+                Identify Potential Issues{" "}
               </span>
               Test pumping can reveal problems like declining water levels or
               poor water quality early, allowing for timely intervention.
@@ -100,20 +100,20 @@ const TestPumping = () => {
           <div className="test__importance">
             <p className="test__importance--content">
               <FaBullseye className="test__importance--icon" />
-              <span className="test__importance--title">Accuracy: </span>
+              <span className="test__importance--title">Accuracy </span>
               We use state-of-the-art equipment and testing methods to ensure that your test pumping results are accurate and reliable.
             </p>
             <p className="test__importance--content">
               <FaUserTie className="test__importance--icon" />
               <span className="test__importance--title">
-              Experience:{" "}
+              Experience{" "}
               </span>
               Our experts bring years of experience and knowledge in hydrogeology and borehole management. We guarantee the best results for your borehole.
             </p>
             <p className="test__importance--content">
               <FaHandshake className="test__importance--icon" />
               <span className="test__importance--title">
-              Client-Centric Approach:{" "}
+              Client-Centric Approach{" "}
               </span>
               We prioritize your needs and concerns, ensuring that our services meet your expectations and requirements. Your satisfaction is our top priority.
             </p>
