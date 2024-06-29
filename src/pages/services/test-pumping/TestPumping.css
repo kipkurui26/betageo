@@ -1,6 +1,7 @@
-.test__pumping--overview {
+.test__container {
     width: 100%;
-    padding: 20px 3%;
+    padding: 30px 3% ;
+    overflow: hidden;
 }
 .test__overview--description {
     color: #020b1d;
@@ -28,8 +29,25 @@
     height: 150px;
     border: 3px solid #1dbdff;
     bottom: -70px;
-    right: -15px;
+    right: -30px;
 }
+.test__importance--content{
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.test__importance--title{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #030d1f;
+}
+.test__importance--icon{
+    margin-right: 5px;
+    color: #164e63;
+    font-size: 1.1em;
+}
+
 @media screen and (min-width: 800px){
     .test__pumping--overview{
         display: flex;

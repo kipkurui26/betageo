@@ -4,6 +4,7 @@ import TestImage1 from '../../../assets/slide33.jpg'
 import Banner from "../../../components/banner/Banner";
 import Heading from "../../../components/headers/Heading";
 import Question from "../../../components/q&a/Question";
+import { FaCogs, FaExclamationTriangle, FaLeaf, FaTachometerAlt } from "react-icons/fa";
 
 const TestPumping = () => {
   return (
@@ -14,7 +15,7 @@ const TestPumping = () => {
         bannerDescription={`By conducting a series of tests, we determine the yield, drawdown, and recovery rates of your borehole. This critical information ensures the design of an efficient water system that meets your needs while maintaining the health of your borehole.`}
         bannerContact={"Get in Touch"}
       />
-      <div className="test__pumping--overview">
+      <div className="test__container test__pumping--overview">
         <div className="test__overview">
           <Heading
             headingSpan={"Overview"}
@@ -43,6 +44,19 @@ const TestPumping = () => {
           <img className="test__image--float" src={TestImage1} alt="" />
         </figure>
       </div>
+      <div className="test__container test__importance--section">
+          <Heading
+            headingSpan={"Reasons"}
+            headingTitle={"Importance of test pumping"}
+          />
+          <div className="test__importance">
+            <p className="test__importance--content"><FaTachometerAlt className="test__importance--icon"/><span className="test__importance--title">Determine Yield: </span>It accurately measures the borehole's water production capacity, ensuring that the supply meets your needs.</p>
+            <p className="test__importance--content"><FaCogs className="test__importance--icon"/><span className="test__importance--title">Optimize Pump Selection: </span>It guides the choice of the correct pump size and type, maximizing efficiency and reducing operational costs.</p>
+            <p className="test__importance--content"><FaLeaf className="test__importance--icon"/><span className="test__importance--title">Sustainable Operation: </span>Regular monitoring during test pumping helps in managing water extraction sustainably, preventing over-exploitation of the aquifer.</p>
+            <p className="test__importance--content"><FaExclamationTriangle className="test__importance--icon"/><span className="test__importance--title">Identify Potential Issues: </span>Test pumping can reveal problems like declining water levels or poor water quality early, allowing for timely intervention.</p>
+          </div>
+
+        </div>
       <Question />
     </section>
   );
