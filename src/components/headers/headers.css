@@ -20,3 +20,19 @@
     font-weight: 700;
     color: #164e63;
 }
+
+/* Heading.jsx */
+.heading__container{
+    width: 100%;
+}
+.heading__span{
+    font-size: 1em;
+    font-weight: 600;
+    color: #1dbdff;
+}
+.heading__title{
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #164e63;
+}
+

@@ -1,0 +1,43 @@
+.test__pumping--overview {
+    width: 100%;
+    padding: 20px 3%;
+}
+.test__overview--description {
+    color: #020b1d;
+    padding: 5px 0;
+}
+.test__image{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+    margin-bottom: 60px;
+}
+.test__image--img{
+    width: 100%;
+    border-radius: 4px;
+}
+.test__image--float{
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    width: 200px;
+    height: 150px;
+    border: 3px solid #1dbdff;
+    bottom: -70px;
+    right: -15px;
+}
+@media screen and (min-width: 800px){
+    .test__pumping--overview{
+        display: flex;
+        align-items: start;
+        gap: 20px;
+   }
+    .test__overview,
+    .test__image{
+        width: 45%;
+    }
+}
