@@ -31,6 +31,12 @@
     bottom: -70px;
     right: -30px;
 }
+.test__importance--section{
+    background: #e0f7fabe;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 .test__importance--content{
     padding-bottom: 5px;
     display: flex;
@@ -38,7 +44,7 @@
     flex-wrap: wrap;
 }
 .test__importance--title{
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
     color: #164e63;
 }
@@ -49,6 +55,13 @@
 }
 
 @media screen and (min-width: 800px){
+    .test__importance--section{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+        gap: 0;
+    }
     .test__pumping--overview{
         display: flex;
         align-items: start;
@@ -57,5 +70,14 @@
     .test__overview,
     .test__image{
         width: 45%;
+    }
+    .left__cols{
+        width: 47%;
+        border-right: 1px solid #1dbdff;
+        padding-right: 2%;
+    }
+    .right__cols{
+        width: 47%;
+        padding-left: 2%;
     }
 }
