@@ -1,0 +1,47 @@
+.question{
+    padding: 3% 0;
+    width: 100%;
+    background-image: url('../../assets/slide33.jpg');
+    background-size: cover;
+    min-height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.question::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.question__content{
+    font-size: 1.5em;
+}
+.question__content.q1{
+    color: #fff;
+}
+.question__content.q2{
+    color: #00bfff;
+}
+.submit--question{
+    margin: 10px 0 20px;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    background: #025672;
+    color: #fff;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.submit--question:hover{
+    background: #0f172a;
+}
