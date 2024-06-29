@@ -26,9 +26,20 @@
     width: 100%;
 }
 .heading__span{
+    position: relative;
+    padding-left: 10px;
     font-size: 1em;
     font-weight: 600;
     color: #1dbdff;
+}
+.heading__span::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    background-color: #1dbdff;
+    left: 0;
+    top: 0;
 }
 .heading__title{
     font-size: 1.4em;
