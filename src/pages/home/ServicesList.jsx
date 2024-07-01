@@ -24,14 +24,14 @@ export const servicesList = [
     },
     {
         id: 4,
-        title: "Test Pumping",
+        title: "Borehole Test Pumping",
         path: '/test-pumping',
         image: TestImage,
         description: "Our test pumping services accurately measure the yield and sustainability of your borehole, providing crucial data for efficient water management.",
     },
     {
         id: 5,
-        title: "Pump Installation",
+        title: "Borehole Pump Installation",
         path: '/pump-installation',
         image: TestImage,
         description: "We specialize in the installation of high-quality pumps, designed to deliver reliable and efficient water supply for all your needs.",
@@ -45,7 +45,7 @@ export const servicesList = [
     },
     {
         id: 7,
-        title: "Tower Construction",
+        title: "Elaveted Tank Tower Construction",
         path: '/tower-construction',
         image: TestImage,
         description: "We build robust water towers designed for efficient storage and distribution, ensuring a consistent and reliable water supply for various applications.",
