@@ -1,0 +1,37 @@
+.consultation{
+    width: 100%;
+    padding: 20px 3%;
+    background: #0f172a;
+}
+.consultation__title{
+    width: 100%;
+    padding: 10px 0; 
+    color: #dad9d9;
+    font-size: 1.4em;
+}
+.consultation__content{
+    color: #81a1b7;
+}
+.consultation__cta{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.consultation__description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #81a1b7;
+}
+.consultation__description--divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.consultation__description--divider .consultation--divide{
+    width: 35%;
+    height: 2px;
+    background: #01bfff;
+}
