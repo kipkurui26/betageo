@@ -24,9 +24,6 @@
     text-align: center;
     color: #81a1b7;
 }
-.consultation__description span{
-    color: #01bfff;
-}
 .consultation__description--divider{
     margin: 10px 0;
     display: flex;
@@ -35,7 +32,7 @@
     gap: 20px;
 }
 .consultation__description--divider .consultation--divide{
-    width: 35%;
+    width: 25%;
     height: 2px;
     background: #81a1b7;
 }
