@@ -1,4 +1,6 @@
+import './Home.css'
 import Banner from "../../components/banner/Banner";
+import HomeServices from './HomeServices';
 
 const Home = () => {
   return (
@@ -9,6 +11,7 @@ const Home = () => {
         bannerDescription={`With over 15 years of industry experience, our dedicated team guarantees top-tier solutions for all your water requirements. From hydro-geological surveys to drilling and comprehensive water system installations, we offer a full spectrum of services. Reach out to us today and let us help you find the perfect water solution!`}
         bannerContact={"Get in Touch"}
       />
+      <HomeServices />
     </section>
   );
 };
