@@ -16,10 +16,14 @@
     padding-bottom: 20px;
 }
 .title__slogan{
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #172554;
     margin: 0;
-
+}
+.title__slogan--description{
+    font-size: 1em;
+    color: #383737;
+    margin: 10px 0;
 }
 .homeService--image{
     width: 100%;
@@ -61,4 +65,32 @@
 .learn__service--btn:hover{
     color: #01bfff;
     gap: 10px;
+}
+@media only screen and (min-width:700px){
+    .title__slogan--container{
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .title__slogan--div{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+    }
+    .title__slogan--description{
+        margin: 0 ;
+    }
+    .homeService__container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .homeService__service{
+        max-width: 48%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .homeService__service{
+        max-width: 31%;
+    }
 }
