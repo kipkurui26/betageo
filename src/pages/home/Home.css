@@ -3,13 +3,13 @@
 }
 .homeService__service{
     margin: 20px 0;
-    border: 1px dashed #ccc;
+    border: 1px dashed #172554;
     padding: 10px 10px 20px;
     border-radius: 5px;
     transition: all 0.3s ease;
 }
 .homeService__service:hover{
-    border: 1px solid #172554;
+    border: 1px solid #979797;
 }
 .homeService__title{
     width: 100%;
