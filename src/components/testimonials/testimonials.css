@@ -86,4 +86,47 @@
   opacity: 1;
   transform: translateY(0);
 }
+.testimonials__projects {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.testimonials__projects--project {
+  background: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.testimonials__projects--content1 {
+  color: #383737;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.testimonials__projects--content3,
+.testimonials__projects--content2 {
+  color: #03343d;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+@media only screen and (min-width: 800px) {
+  .testimonials {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 40px;
+  }
+  .testimonials__customer{
+    width: 60%;
+  }
 
+  .testimonials__projects {
+    width: 30%;
+  }
+}

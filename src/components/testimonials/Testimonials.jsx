@@ -118,7 +118,23 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className="testimonials__projects"></div>
+      <div className="testimonials__projects">
+        <div className="testimonials__projects--project">
+            <span className="testimonials__projects--content1">Over</span>
+            <span className="testimonials__projects--content2">200</span>
+            <span className="testimonials__projects--content3">Boreholes Drilled</span>
+        </div>
+        <div className="testimonials__projects--project">
+            <span className="testimonials__projects--content1">Over</span>
+            <span className="testimonials__projects--content2">300</span>
+            <span className="testimonials__projects--content3">Satisfied Clients</span>
+        </div>
+        <div className="testimonials__projects--project">
+            <span className="testimonials__projects--content1">Serving</span>
+            <span className="testimonials__projects--content2">47</span>
+            <span className="testimonials__projects--content3">Counties</span>
+        </div>
+      </div>
     </section>
   );
 };
