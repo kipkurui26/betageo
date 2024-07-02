@@ -1,10 +1,31 @@
-import { FaCaretRight } from "react-icons/fa";
+import { useState, useEffect } from "react";
+import { FaArrowUp, FaCaretRight } from "react-icons/fa";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import Socials from "../social handles/Socials";
 import { subLinks } from "../navigation/NavItems";
 
 const Footer = () => {
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [showScroll, setShowScroll] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY) {
+        setShowScroll(false);
+      } else {
+        setShowScroll(true);
+      }
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
+
   return (
     <section className="footer">
       <div className="footer__container footer__about">
@@ -79,6 +100,11 @@ const Footer = () => {
           <Socials />
         </div>
       </div>
+      {showScroll && (
+        <div className="scroll__up" onClick={() => window.scrollTo(0, 0)}>
+          <FaArrowUp />
+        </div>
+      )}
     </section>
   );
 };
