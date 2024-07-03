@@ -70,6 +70,11 @@ const Testimonials = () => {
     return () => clearTimeout(timer);
   }, [currentIndex]);
 
+  useEffect(() => {
+    const interval = setInterval(handleNext, 10000);
+    return () => clearInterval(interval);
+  }, [currentIndex]);
+
   return (
     <section className="testimonials">
       <div className="testimonials__customer">
