@@ -27,7 +27,7 @@
     border-radius: 5px;
 }
 .faqs__faq.is-faq{
-    border: 1px solid #0c4a6e;
+    border: 1px dashed #0c4a6e;
 }
 .faqs__faq > div:nth-child(odd){
     margin-bottom: 8px;
