@@ -26,3 +26,14 @@
     color: #1e293b;
     line-height: 1.5; 
 }
+@media only screen and (min-width:800px){
+    .features{
+        flex-direction: row;
+    }
+    .features__container{
+        width: 33%;
+    }
+    .features__content{
+        font-size: 0.9em;
+    }
+}
