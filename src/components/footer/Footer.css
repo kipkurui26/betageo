@@ -107,11 +107,13 @@
 }
 
 .scroll__up{
+
   width: 40px;
   height: 40px;
   background: #020b1d;
   color: #fff;
   position: fixed;
+  z-index: 200;
   bottom: 10px;
   left: 10px;
   display: flex;
