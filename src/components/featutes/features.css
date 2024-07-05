@@ -1,0 +1,28 @@
+.features {
+    width: 100%;
+    padding: 20px 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.features__container {
+    background: #f1f1f1;
+    border: 1px dashed #083344;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.features__icon {
+    font-size: 2em;
+    color: #082f49;
+}
+.features__title {
+    font-size: 1.3em;
+    color: #082f49;
+    margin-top: 10px; 
+    margin-bottom: 5px;
+}
+.features__content {
+    color: #1e293b;
+    line-height: 1.5; 
+}

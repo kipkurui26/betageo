@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { TiArrowSortedDown, TiArrowSortedUp } from "react-icons/ti";
 import "./faq.css";
 
-const Faq = ({faqList}) => {
+const Faq = ({ faqList }) => {
 
 
   const [activeFaq, setActiveFaq] = useState(1);
@@ -10,6 +10,21 @@ const Faq = ({faqList}) => {
   const handleToggleFaq = (id) => {
     setActiveFaq((prevActiveFaq) => (prevActiveFaq === id ? null : id));
   };
+
+  useEffect(()=>{
+    const timer = setInterval(()=>{
+      setActiveFaq((prevActiveFaq)=>{
+        if (prevActiveFaq === faqList.length){
+          return 1;
+        }
+        else{
+          return prevActiveFaq + 1;
+        }
+      });
+    }, 10000);
+
+    return () => clearInterval(timer);
+  }, [faqList.length])
 
   return (
     <section className="faqs">

@@ -5,6 +5,7 @@ import Consultation from '../../components/consultation/Consultation';
 import Testimonials from '../../components/testimonials/Testimonials';
 import HomeAbout from './HomeAbout';
 import Faq from '../../components/faq/Faq';
+import Features from '../../components/featutes/Features';
 
 const Home = () => {
   const faqList = [
@@ -43,6 +44,7 @@ const Home = () => {
         bannerDescription={`With over 15 years of industry experience, our dedicated team guarantees top-tier solutions for all your water requirements. From hydro-geological surveys to drilling and comprehensive water system installations, we offer a full spectrum of services. Reach out to us today and let us help you find the perfect water solution!`}
         bannerContact={"Get in Touch"}
       />
+      <Features />
       <Faq 
         faqList={faqList}
       />
