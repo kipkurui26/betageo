@@ -10,8 +10,7 @@ import HydroSurvey from "./pages/services/hydro-survey/HydroSurvey";
 import BoreholeDrilling from "./pages/services/borehole-drilling/BoreholeDrilling";
 import CameraInspection from "./pages/services/camera-inspection/CameraInspection";
 import TestPumping from "./pages/services/test-pumping/TestPumping";
-import PumpInstallation from "./pages/services/pump-installation/PumpInstallation";
-import SolarInstallation from "./pages/services/solar-installation/SolarInstallation";
+import PumpInstallation from "./pages/services/pump-installation/PumpInstallation"; // Pump & Solar Installation
 import TowerConstruction from "./pages/services/tower-construction/TowerConstruction";
 
 import NotFound from "./pages/not-found/NotFound";
@@ -36,12 +35,8 @@ function App() {
         />
         <Route path="/hydro-geological-survey" element={<HydroSurvey />} />
         <Route
-          path="/pump-installation"
+          path="/pump-and-solar-installation"
           element={<PumpInstallation />}
-        />
-        <Route
-          path="/solar-installation"
-          element={<SolarInstallation />}
         />
         <Route path="/test-pumping" element={<TestPumping />} />
         <Route

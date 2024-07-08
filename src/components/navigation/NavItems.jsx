@@ -50,20 +50,14 @@ export const subLinks = [
     },
     {
         id: 5,
-        title: 'Pump Installation',
-        path: '/pump-installation',
+        title: 'Pump & Solar Installation',
+        path: '/pump-and-solar-installation',
         cName: "sub-link"
     },
     {
         id: 6,
         title: 'Tower Construction',
         path: '/tower-construction',
-        cName: "sub-link"
-    },
-    {
-        id: 7,
-        title: 'Solar Installation',
-        path: '/solar-installation',
         cName: "sub-link"
     },
 ]

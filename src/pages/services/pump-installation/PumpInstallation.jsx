@@ -4,9 +4,9 @@ const PumpInstallation = () => {
   return (
     <section className="pump-installation">
       <Banner
-        bannerOverview={"Borehole Pump Installation"}
-        bannerTitle={"Expert Installation of Borehole Pumps"}
-        bannerDescription={`We provide a comprehensive service that includes pump selection, installation, and maintenance. With our in-depth knowledge and experience, we ensure that your borehole pump is installed correctly and operates efficiently.`}
+        bannerOverview={"Borehole Pump & Solar Installation"}
+        bannerTitle={"Expert Installation of Borehole Pumps & Solar Systems"}
+        bannerDescription={`We offer expert installation of borehole pumps and solar systems. Our team of experienced technicians will ensure that your borehole pump and solar system are installed correctly and efficiently. We use high-quality materials and equipment to ensure that your borehole pump and solar system will last for many years to come. Contact us today to learn more about our borehole pump and solar installation services.`}
         bannerContact={"Get in Touch"}
       />
     </section>
