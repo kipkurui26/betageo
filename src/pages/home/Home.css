@@ -134,9 +134,23 @@
     transform: scale(1);
     transition: all 0.3s ease;
 }
+/* Home Contact jsx */
+.home-contact{
+    padding: 20px 3%;
+}
 @media only screen and (min-width: 800px){
     .homeAbout{
         display: flex;
         gap: 10px;
+    }
+    .home-contact{
+        display: flex;
+        gap: 30px;
+    }
+    .home-contact > form{
+        width: 57%;
+    }
+    .home-contact > div{
+        width: 40%;
     }
 }
