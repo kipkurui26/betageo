@@ -1,0 +1,38 @@
+.aboutOverview{
+    padding: 20px 3%;
+}
+.aboutOverview__description--content{
+    color: #1e293b;
+    padding: 5px 0;
+}
+.aboutOverview__services{
+    padding: 20px 0;
+}
+.aboutOverview__services--title{
+    color: #1e293b;
+    font-size: 1.2em;
+}
+.aboutOverview__services--service{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+    color: #1e293b;
+
+}
+.aboutOverview__services--icon{
+    color: #312e81;
+}
+@media only screen and (min-width:800px){
+    .aboutOverview{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+    .aboutOverview > div{
+        width: 48%;
+    }
+    .aboutOverview__services{
+        padding: 0;
+    }
+}
