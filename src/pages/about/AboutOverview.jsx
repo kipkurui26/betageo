@@ -6,13 +6,7 @@ import TestImage2 from "../../assets/slide-imag.jpg";
 import { FaWater } from "react-icons/fa";
 import { FiSettings } from "react-icons/fi";
 import { GiWaterDrop } from "react-icons/gi";
-import {
-  MdBuild,
-  MdCamera,
-  MdOutlineArrowBackIos,
-  MdOutlineArrowForwardIos,
-  MdSolarPower,
-} from "react-icons/md";
+import { MdBuild, MdCamera, MdOutlineArrowBackIos, MdOutlineArrowForwardIos, MdSolarPower, } from "react-icons/md";
 
 const AboutOverview = () => {
   const imagesList = [
