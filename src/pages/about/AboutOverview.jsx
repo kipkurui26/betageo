@@ -38,16 +38,16 @@ const AboutOverview = () => {
           Drilling Services
         </span>
         <span className="aboutOverview__services--service">
-          <MdCamera className="aboutOverview__services--icon" /> Borehole Camera
+          <MdCamera className="aboutOverview__services--icon" /> Camera
           Inspection Services
         </span>
         <span className="aboutOverview__services--service">
-          <FiSettings className="aboutOverview__services--icon" /> Borehole Test
-          Pumping Services
+          <FiSettings className="aboutOverview__services--icon" /> Test Pumping
+          Services
         </span>
         <span className="aboutOverview__services--service">
-          <MdSolarPower className="aboutOverview__services--icon" /> Borehole
-          Pump & Solar Installation Services
+          <MdSolarPower className="aboutOverview__services--icon" /> Pump &
+          Solar Installation Services
         </span>
         <span className="aboutOverview__services--service">
           <FaWater className="aboutOverview__services--icon" /> Elevated Tank &
