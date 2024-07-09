@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import TestImage from "../../assets/image.jpg";
 import TestImage1 from "../../assets/image1.jpeg";
 import TestImage2 from "../../assets/slide-imag.jpg";
@@ -51,7 +51,7 @@ const AboutOverview = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(handleNext, 8000); // Move to next image every 8 seconds
+    const interval = setInterval(handleNext, 8000);
     return () => clearInterval(interval);
   }, []);
 
@@ -110,7 +110,7 @@ const AboutOverview = () => {
           <img
             className="aboutOverview__image--img"
             src={imagesList[currentImageIndex].image}
-            alt={imagesList[currentImageIndex].service}
+            alt={`${imagesList[currentImageIndex].service} at ${imagesList[currentImageIndex].location}`}
           />
           <div className="aboutOverview__details">
             <span className="aboutOverview__details--content">
@@ -150,7 +150,7 @@ const AboutOverview = () => {
             onClick={handleNext}
           >
             <MdOutlineArrowForwardIos />
-          </button>
+          </button> 
         </div>
       </div>
     </div>

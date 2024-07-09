@@ -98,3 +98,15 @@
   background-color: #312e81;
   color: white;
 }
+@media only screen and (min-width:800px){
+  .aboutOverview{
+    display: flex;
+    gap: 20px;
+  }
+  .aboutOverview__description{
+    width: 55%;
+  }
+  .aboutOverview__figure{
+    width: 45%;
+  }
+}
