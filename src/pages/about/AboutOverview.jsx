@@ -150,7 +150,7 @@ const AboutOverview = () => {
             onClick={handleNext}
           >
             <MdOutlineArrowForwardIos />
-          </button>
+          </button> 
         </div>
       </div>
     </div>
