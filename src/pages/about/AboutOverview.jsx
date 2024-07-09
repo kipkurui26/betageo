@@ -51,7 +51,7 @@ const AboutOverview = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(handleNext, 8000); // Move to next image every 8 seconds
+    const interval = setInterval(handleNext, 8000);
     return () => clearInterval(interval);
   }, []);
 
@@ -110,7 +110,7 @@ const AboutOverview = () => {
           <img
             className="aboutOverview__image--img"
             src={imagesList[currentImageIndex].image}
-            alt={imagesList[currentImageIndex].service}
+            alt={`${imagesList[currentImageIndex].service} at ${imagesList[currentImageIndex].location}`}
           />
           <div className="aboutOverview__details">
             <span className="aboutOverview__details--content">
