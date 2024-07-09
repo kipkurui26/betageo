@@ -1,5 +1,7 @@
+import './about.css'
 import Banner from "../../components/banner/Banner";
 import Faq from "../../components/faq/Faq";
+import AboutOverview from './AboutOverview';
 
 const About = () => {
   const faqList = [
@@ -51,6 +53,8 @@ const About = () => {
           every step of the way.`}
         bannerContact={"Get in Touch"}
       />
+      <AboutOverview />
+
       <Faq faqList={faqList} />
     </section>
   );
