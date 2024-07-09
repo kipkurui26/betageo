@@ -30,6 +30,7 @@
   width: 100%;
   border-radius: 6px;
   overflow: hidden;
+  transition: all 0.5s ease-in-out;
 }
 .aboutOverview__details {
   position: absolute;
@@ -96,16 +97,4 @@
 .preview--btns:hover {
   background-color: #312e81;
   color: white;
-}
-@media only screen and (min-width:800px){
-    .aboutOverview{
-        display: flex;
-        gap: 20px;
-    }
-    .aboutOverview__description{
-        width: 55%;
-    }
-    .aboutOverview__figure{
-        width: 45%;
-    }
 }

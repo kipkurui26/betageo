@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TestImage from "../../assets/image.jpg";
 import TestImage1 from "../../assets/image1.jpeg";
 import TestImage2 from "../../assets/slide-imag.jpg";
@@ -49,6 +49,11 @@ const AboutOverview = () => {
       prevIndex === 0 ? imagesList.length - 1 : prevIndex - 1
     );
   };
+
+  useEffect(() => {
+    const interval = setInterval(handleNext, 8000); // Move to next image every 8 seconds
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="aboutOverview">
@@ -105,7 +110,7 @@ const AboutOverview = () => {
           <img
             className="aboutOverview__image--img"
             src={imagesList[currentImageIndex].image}
-            alt={`${imagesList[currentImageIndex].service} at ${imagesList[currentImageIndex].location}`}
+            alt={imagesList[currentImageIndex].service}
           />
           <div className="aboutOverview__details">
             <span className="aboutOverview__details--content">
