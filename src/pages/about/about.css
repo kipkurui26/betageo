@@ -113,6 +113,8 @@
 /* Better Community  */
 .betterCommunity{
   width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
 }
 .betterCommunity__figure{
   width: 100%;
@@ -125,7 +127,7 @@
 .betterCommunity__title{
   margin: 10px 0;
   color: #312e81;
-  font-size: 1.3em;
+  font-size: 1.5em;
   text-align: center;
 }
 .betterCommunity__description{
