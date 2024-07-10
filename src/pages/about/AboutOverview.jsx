@@ -47,7 +47,7 @@ const AboutOverview = () => {
   useEffect(() => {
     const interval = setInterval(handleNext, 8000);
     return () => clearInterval(interval);
-  }, []);
+  },);
 
   return (
     <div className="aboutOverview">

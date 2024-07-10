@@ -2,6 +2,7 @@ import './about.css'
 import Banner from "../../components/banner/Banner";
 import Faq from "../../components/faq/Faq";
 import AboutOverview from './AboutOverview';
+import BetterCommunity from './BetterCommunity';
 
 const About = () => {
   const faqList = [
@@ -54,6 +55,7 @@ const About = () => {
         bannerContact={"Get in Touch"}
       />
       <AboutOverview />
+      <BetterCommunity />
 
       <Faq faqList={faqList} />
     </section>
