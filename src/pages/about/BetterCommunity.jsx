@@ -9,9 +9,9 @@ const BetterCommunity = () => {
           alt="Better Community Image"
           className="betterCommunity__image"
         />
+        <h2 className="betterCommunity__title">Together we can Build a Better Community</h2>
       </figure>
       <div className="betterCommunity__description">
-        <h2 className="betterCommunity__title">Building a Better Community</h2>
         <p className="betterCommunity__text">
           From finding the water sources to extracting it, Beta Geo-Consultants
           is committed to ensuring that communities have access to clean and
