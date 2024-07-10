@@ -4,6 +4,7 @@ import Faq from "../../components/faq/Faq";
 import AboutOverview from './AboutOverview';
 import BetterCommunity from './BetterCommunity';
 import Testimonials from '../../components/testimonials/Testimonials'
+import Statements from '../../components/statements/Statements';
 
 const About = () => {
   const faqList = [
@@ -57,7 +58,7 @@ const About = () => {
       />
       <AboutOverview />
       <BetterCommunity />
-
+      <Statements />
       <Testimonials />
       <Faq faqList={faqList} />
     </section>
