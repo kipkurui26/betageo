@@ -129,6 +129,7 @@
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -159,11 +160,25 @@
   background: #0284c7;
   color: #fff;
   font-size: 1.2em;
-  padding: 10px 80px;
+  padding: 5px 80px;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .betterCommunity__button--btn:hover {
   background: #0c4a6e;
+}
+@media only screen and (min-width:800px){
+  .betterCommunity__figure{
+    height: 250px;
+  }
+  .betterCommunity__image {
+    height: 100%;
+  }
+  .betterCommunity__title{
+    font-size: 2em;
+  }
+  .betterCommunity__button{
+    margin-top: 50px;
+  }
 }
